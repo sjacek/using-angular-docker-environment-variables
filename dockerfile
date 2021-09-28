@@ -1,6 +1,6 @@
 ##### Stage 1
 
-FROM node:10.15.0 as builder
+FROM node:14.17-alpine as builder
 
 WORKDIR /app
 
